@@ -48,6 +48,12 @@ body {
     margin-bottom: 15px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+}
+
 @media screen and (max-width: 576px) {
 
     .main-info,
