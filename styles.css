@@ -86,12 +86,14 @@ body {
 }
 
 .contact-info__block {
+    min-width: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .contact-info__block--center {
+    align-items: center;
     justify-content: center;
 }
 
@@ -153,6 +155,9 @@ body {
 }
 
 .intro_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     color: var(--secondary-text-color);
     text-align: justify;
 }
