@@ -48,6 +48,12 @@ body {
     margin-bottom: 15px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+}
+
 @media screen and (max-width: 576px) {
 
     .main-info,
@@ -86,12 +92,14 @@ body {
 }
 
 .contact-info__block {
+    min-width: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .contact-info__block--center {
+    align-items: center;
     justify-content: center;
 }
 
@@ -153,6 +161,9 @@ body {
 }
 
 .intro_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     color: var(--secondary-text-color);
     text-align: justify;
 }
